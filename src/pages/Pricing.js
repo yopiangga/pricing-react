@@ -4,7 +4,7 @@ import { SliderRange } from "../component/slider-range/SliderRange";
 export function Pricing(){
     return(
         <div className="pricing-page">
-            <div className="bg-main"></div>
+            <div className="bg-main bg-main-1"></div>
             <section className="main">
                 <div className="content">
                     <div class="content-head">
@@ -16,7 +16,7 @@ export function Pricing(){
                     </div>
                 </div>
             </section>
-            <div className="bg-main"></div>
+            <div className="bg-main bg-main-2"></div>
         </div>
     )
 }
