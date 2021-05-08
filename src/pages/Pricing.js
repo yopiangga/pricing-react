@@ -7,7 +7,7 @@ export function Pricing(){
             <div className="bg-main bg-main-1"></div>
             <section className="main">
                 <div className="content">
-                    <div class="content-head">
+                    <div className="content-head">
                         <h1>Simple, traffic-based pricing</h1>
                         <h5>Sign-up for our 30-day. No craedit card required.</h5>
                     </div>

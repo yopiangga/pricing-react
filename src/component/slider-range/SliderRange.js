@@ -42,7 +42,8 @@ export function SliderRange(){
                 </div>
             </div>
             <div className="card-slider">
-                <input type="range" className="slider" max="12" min="1" value={slider} onChange={handleChange} />
+                <input type="range" className="slider" max="10" min="1" value={slider} onChange={handleChange} />
+                <div className="bg-range" style={{width: `${(slider * 10) - 6}%`}}></div>
             </div>
             <div className="card-choice">
                 <div className="choice-left">
@@ -50,7 +51,7 @@ export function SliderRange(){
                 </div>
                 <div className="choice-center">
                     <div className="box" onClick={handleChoice}>
-                        <div class="circle"></div>
+                        <div className="circle"></div>
                     </div>
                 </div>
                 <div className="choice-right">
