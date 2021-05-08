@@ -53,12 +53,13 @@
             min-height: 100vh;
     
             .bg-main {
-                height: 50vh;
+                height: 75vh;
                 width: 100%;
-                background-color: $colorWhite;
+                background-color: rgba($color: $colorLight, $alpha: 0.50);
                 position: absolute;
                 z-index: 1;
                 box-shadow: 20px -30px 90px rgba($color: $colorGray, $alpha: 0.08);
+                border-radius: 0px 0px 0px 200px;
             }
     
             .bg-main-1 {
@@ -66,6 +67,7 @@
             }
             .bg-main-2 {
                 top: 50vh;
+                display: none;
             }
     
             .main {

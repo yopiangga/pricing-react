@@ -33,19 +33,21 @@
     min-height: 100vh;
   }
   .pricing-page .bg-main {
-    height: 50vh;
+    height: 75vh;
     width: 100%;
-    background-color: #F9FAFF;
+    background-color: rgba(208, 216, 237, 0.5);
     position: absolute;
     z-index: 1;
     -webkit-box-shadow: 20px -30px 90px rgba(137, 139, 154, 0.08);
             box-shadow: 20px -30px 90px rgba(137, 139, 154, 0.08);
+    border-radius: 0px 0px 0px 200px;
   }
   .pricing-page .bg-main-1 {
     top: 0;
   }
   .pricing-page .bg-main-2 {
     top: 50vh;
+    display: none;
   }
   .pricing-page .main {
     width: 100%;
